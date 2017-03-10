@@ -1,0 +1,204 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"
+"http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+<head>
+	<title>ESM ZONE - The Place for Student Athletes</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link href="css/style.css" type="text/css" rel="stylesheet">
+	<script type="text/javascript" src="js/functions.js"></script>
+	<script type="text/javascript" src="js/sorttable.js"></script>
+	<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="images/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+	<script type="text/javascript" src="images/fancybox/jquery.easing-1.3.pack.js"></script>
+	<link rel="stylesheet" href="images/fancybox/jquery.fancybox-1.3.1.css" type="text/css" media="screen">
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("a.iframe").fancybox({
+					'width'				: 450,
+					'height'			: 350,
+					'type'				: 'iframe',
+					'autoScale'     	: false,
+					'padding' : '0',
+					'titleShow' : false,
+					'scrolling'	:'no',
+			});
+		});
+	</script>
+</head>
+<body onload="menuSlider.init('menu','slide')">
+<div id="wrapper">
+	<div id="header"><div id="header-left-fold"></div>
+		<div id="user-info">
+			<img id="user-avatar" alt="[USER NAME]" src="images/avatar-user.jpg">
+			<h1>Kara Lambert</h1>
+			<span id="user-functions"><a href="[EDIT]">edit</a> | <a href="[LOG OUT]">log out</a></span>
+			<span id="user-score">Score 19,257 <img id="user-stars" alt="4.3 stars" src="images/stars.png"></span>
+		</div><!-- end div#user-info -->
+		<div class="menu">
+			<ul id="menu">
+				<li><a href="homepage.html">Home</a></li>
+				<li><a href="find-answers.html">Search</a></li>
+				<li><a href="ask-question.html">Ask a Question</a></li>
+				<li><a href="people.html">People</a></li>
+				<li value="1"><a href="standings.html">Standings</a></li>
+			</ul><!-- end ul#menu -->
+			<div id="slide"></div>
+		</div>
+		<a href="[PATH TO HOMEPAGE]"><img id="esm-logo" alt="ESM Zone" src="images/logo.png"></a>
+	<div id="header-right-fold"></div></div><!-- end div#header -->
+	<div id="container" class="standings">
+		<div id="left">
+			<div class="box">
+				<div id="personal-stats-container">
+					<div id="personal-stats">
+						<div class="alerts section"><!-- begin alerts section -->
+							<h3>Alerts</h3>
+							<div class="counter"><div class="round-right"></div><div class="number">18</div><div class="round-left"></div></div><!-- alerts number goes here -->
+							<ul>
+								<li>Jonathan Lane answered <a href="[ALERT PATH]">your question</a></li>
+								<li>Jane Kent answered the <a href="[ALERT PATH]">same question</a></li>
+								<li>Albertson Grant answered <a href="[ALERT PATH]">your question</a></li>
+								<li>Michael Ball has sent you <a href="[ALERT PATH]">a message</a></li>
+							</ul>
+							<a href="popups/conversation-alerts-popup.html" class="see-more-link iframe">See all alerts</a>
+						</div><!-- end alerts section -->
+						<div class="medals section"><!-- begin medals section -->
+							<h3>Medals</h3>
+							<ul>
+								<li><img alt="[MEDAL NAME]" src="images/medal1.png"></li>
+								<li><img alt="[MEDAL NAME]" src="images/medal2.png"></li>
+								<li><img alt="[MEDAL NAME]" src="images/medal3.png"></li>
+								<li><img alt="[MEDAL NAME]" src="images/medal4.png"></li>
+								<li><img alt="[MEDAL NAME]" src="images/medal5.png"></li>
+							</ul>
+						</div><!-- end medals section -->
+						<div class="stats section"><!-- begin stats section -->
+							<h3>Stats</h3>
+							<table>
+								<colgroup class="left"></colgroup>
+								<colgroup></colgroup>
+								<tr><td>Total Ratings</td><td>4.3 <img alt="4.3 stars" class="stars" src="images/stars.png"></td></tr>
+								<tr><td>Questions Asked</td><td>12</td></tr>
+								<tr><td>Questions Answered</td><td>38</td></tr>
+								<tr><td>Total Points Earned</td><td>9,156</td></tr>
+								<tr><td>Score</td><td>23,885</td></tr>
+								<tr><td>Division II Rank</td><td>218</td></tr>
+							</table>
+						</div><!-- end stats section -->
+						<div class="fans-mentors section"><!-- begin fans/mentors section -->
+							<h3>My Fans &#149; Mentors</h3>
+							<div class="counter"><div class="round-right"></div><div class="number">328</div><div class="round-left"></div></div><!-- fans/mentor number goes here -->
+							<div id="avatar-gallery">
+								<a href="[PATH TO FRIEND'S PROFILE]"><img alt="[NAME]" src="images/avatar-medium-1.jpg"></a>
+								<a href="[PATH TO FRIEND'S PROFILE]"><img alt="[NAME]" src="images/avatar-medium-1.jpg"></a>
+								<a href="[PATH TO FRIEND'S PROFILE]"><img alt="[NAME]" src="images/avatar-medium-1.jpg"></a>
+								<a href="[PATH TO FRIEND'S PROFILE]"><img alt="[NAME]" src="images/avatar-medium-1.jpg"></a>
+								<a href="[PATH TO FRIEND'S PROFILE]"><img alt="[NAME]" src="images/avatar-medium-1.jpg"></a>
+								<a href="[PATH TO FRIEND'S PROFILE]"><img alt="[NAME]" src="images/avatar-medium-1.jpg"></a>
+								<a href="[PATH TO FRIEND'S PROFILE]"><img alt="[NAME]" src="images/avatar-medium-1.jpg"></a>
+								<a href="[PATH TO FRIEND'S PROFILE]"><img alt="[NAME]" src="images/avatar-medium-1.jpg"></a>
+								<a href="[PATH TO FRIEND'S PROFILE]"><img alt="[NAME]" src="images/avatar-medium-1.jpg"></a>
+								<a href="[PATH TO FRIEND'S PROFILE]"><img alt="[NAME]" src="images/avatar-medium-1.jpg"></a>
+							</div><!-- end div#avatar-gallery -->
+							<a href="popups/mentors-popup.html" class="see-more-link iframe">See all fans and mentors</a>
+						</div><!-- end fans/mentors section -->
+					</div><!-- end div#personal-stats -->
+					<div id="personal-stats-tab" onMouseover="personalStats('bumpopen');" onMouseout="personalStats('bumpclose');" onClick="personalStats('switch');">
+						<h3>Personal Stats</h3>
+						<div id="personal-stats-tab-counter" class="counter"><div class="round-right"></div><div class="number">328</div><div class="round-left"></div></div>
+						<img id="personal-stats-close-button" src="images/close-button.png" alt="Close your Personal Stats" />
+					</div><!-- end div#personal-stats-tab -->
+				</div><!-- end div#personal-stats-container -->
+				<form id="search-selection">
+					<div class="filters section">
+						<span>30 people found</span><!-- This only appears after a search has been made -->
+						<span class="right"><a href="#">Clear all filters</a></span><!-- This only appears after a search has been made -->
+						<h3>Filters</h3>
+						<table>
+							<tr><td><label for="gender">Gender</label></td><td><input type="radio" value="male" name="gender" /> Male<input type="radio" value="female" name="gender" /> Female</td></tr>
+							<tr><td><label for="grade">Grade</label></td><td><select name="grade"><option value=""></option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option></select></td></tr>
+							<tr><td><label for="sports">Sports Played</label></td><td><select name="sports"><option value=""></option><option value="Rugby">Rugby</option><option value="Football">Football</option><option value="Cricket">Cricket</option></select></td></tr>
+							<tr><td><label for="location">City/Town</label></td><td><select name="location"><option value=""></option><option value="London">London</option><option value="Watley">Watley</option><option value="Bingham">Bingham</option></select></td></tr>
+							<tr><td><label for="school">School</label></td><td><select name="school"><option value=""></option><option value="Eton">Eton</option><option value="Harvard-Westlake">Harvard-Westlake</option><option value="Soccer Academy">Soccer Academy</option></select></td></tr>
+							<tr><td><label for="mentors">Show mentors only</label></td><td><input name="mentors" type="checkbox" /></td></tr>
+						</table>
+					</div><!-- end div.filters -->
+					<a href="#">Clear all filters</a>
+					<input type="image" value="Filter Results" class="submit" />
+				</form>
+			</div><!-- end div.box -->
+			<div class="ad box">
+				<h1>Page sponsored by ACE</h1>
+				<a href="#" class="ad-link"><img src="images/ad-ace.gif" alt="20% Everything in the Bag! - by HP" class="ad" /></a>
+			</div><!-- end div.ad -->
+		</div><!-- end div#left -->
+		<div id="content" class="wide">
+			<div id="content-header">
+				<ul class="menu">
+					<li><a href="">Nike Division I Standings</a></li>
+					<li><a href="">Ace Hardware Division II Standings</a></li>
+					<li><a class="current"  href="">ESPN Division III Standings</a></li>
+				</ul>
+			</div><!-- end div#content-header -->
+			<table class="sortable">
+				<colgroup class="first-column"></colgroup>
+				<colgroup class="second-column"></colgroup>
+				<colgroup class="third-column"></colgroup>
+				<thead>
+					<tr><th class="sorttable_nosort number"></th><th class="name">Name</th><th class="grade">Grade</th><th>Town/City</th><th class="school">School</th><th class="sorttable_nosort medals">Medals</th><th class="score">Score</th>
+				</thead>
+				<tbody>
+					<tr><td>1.</td><td><a href="popups/stats-popup.html" class="iframe"><h3>Raj Bhanadri</h3></a></td><td>10</td><td>Palo Alto, CA</td><td>Palo Alto High School</td><td><img alt="[MEDAL NAME]" src="images/medal5.png"><img alt="[MEDAL NAME]" src="images/medal4.png"><img alt="[MEDAL NAME]" src="images/medal3.png"><img alt="[MEDAL NAME]" src="images/medal1.png"><img alt="[MEDAL NAME]" src="images/medal3.png"></td><td>21,546</td></tr>
+					<tr><td>2.</td><td><a href="popups/stats-popup.html" class="iframe"><h3>Bill Hoomein</h3></a></td><td>11</td><td>Providence, RI</td><td>High School</td><td><img alt="[MEDAL NAME]" src="images/medal3.png"><img alt="[MEDAL NAME]" src="images/medal2.png"><img alt="[MEDAL NAME]" src="images/medal2.png"><img alt="[MEDAL NAME]" src="images/medal4.png"><img alt="[MEDAL NAME]" src="images/medal3.png"></td><td>20,532</td></tr>
+					<tr><td>3.</td><td><a href="popups/stats-popup.html" class="iframe"><h3>George Wallaby</h3></a></td><td>12</td><td>New York, NY</td><td>King George High School</td><td><img alt="[MEDAL NAME]" src="images/medal1.png"><img alt="[MEDAL NAME]" src="images/medal4.png"><img alt="[MEDAL NAME]" src="images/medal3.png"><img alt="[MEDAL NAME]" src="images/medal1.png"></td><td>19,453</td></tr>
+					<tr><td>4.</td><td><a href="popups/stats-popup.html" class="iframe"><h3>James Dean</h3></a></td><td>11</td><td>Liverpool, UK</td><td>American International</td><td><img alt="[MEDAL NAME]" src="images/medal1.png"><img alt="[MEDAL NAME]" src="images/medal2.png"><img alt="[MEDAL NAME]" src="images/medal3.png"></td><td>19,320</td></tr>
+					<tr><td>5.</td><td><a href="popups/stats-popup.html" class="iframe"><h3>David Beckham</h3></a></td><td>11</td><td>Hong Kong</td><td>Singapore Royal</td><td><img alt="[MEDAL NAME]" src="images/medal2.png"><img alt="[MEDAL NAME]" src="images/medal2.png"><img alt="[MEDAL NAME]" src="images/medal3.png"></td><td>19,301</td></tr>
+					<tr><td>6.</td><td><a href="popups/stats-popup.html" class="iframe"><h3>Tara Decker</h3></a></td><td>12</td><td>North Hollywood, CA</td><td>Harvard-Westlake High School</td><td><img alt="[MEDAL NAME]" src="images/medal5.png"><img alt="[MEDAL NAME]" src="images/medal4.png"><img alt="[MEDAL NAME]" src="images/medal3.png"></td><td>19,112</td></tr>
+					<tr><td>7.</td><td><a href="popups/stats-popup.html" class="iframe"><h3>Jamie Brown</h3></a></td><td>12</td><td>Duluth, MN</td><td>Jameson High School</td><td><img alt="[MEDAL NAME]" src="images/medal1.png"><img alt="[MEDAL NAME]" src="images/medal2.png"><img alt="[MEDAL NAME]" src="images/medal3.png"></td><td>18,457</td></tr>
+					<tr><td>8.</td><td><a href="popups/stats-popup.html" class="iframe"><h3>Lucas French</h3></a></td><td>10</td><td>Groton, CT</td><td>Groton Preparatory</td><td><img alt="[MEDAL NAME]" src="images/medal3.png"><img alt="[MEDAL NAME]" src="images/medal2.png"></td><td>17,354</td></tr>
+					<tr><td>9.</td><td><a href="popups/stats-popup.html" class="iframe"><h3>Jimbo Flahanadri</h3></a></td><td>10</td><td>Apple City, CA</td><td>Palo Alto High School</td><td><img alt="[MEDAL NAME]" src="images/medal1.png"><img alt="[MEDAL NAME]" src="images/medal4.png"><img alt="[MEDAL NAME]" src="images/medal3.png"></td><td>16,546</td></tr>
+					<tr><td>10.</td><td><a href="popups/stats-popup.html" class="iframe"><h3>Gill Goomein</h3></a></td><td>11</td><td>Galway, RI</td><td>High School</td><td><img alt="[MEDAL NAME]" src="images/medal5.png"><img alt="[MEDAL NAME]" src="images/medal2.png"></td><td>16,532</td></tr>
+					<tr><td>11.</td><td><a href="popups/stats-popup.html" class="iframe"><h3>Norman Wallaby</h3></a></td><td>12</td><td>Pickachouk, NY</td><td>King George High School</td><td><img alt="[MEDAL NAME]" src="images/medal3.png"></td><td>15,453</td></tr>
+					<tr><td>12.</td><td><a href="popups/stats-popup.html" class="iframe"><h3>John Jean</h3></a></td><td>11</td><td>Glasgow, UK</td><td>American International</td><td><img alt="[MEDAL NAME]" src="images/medal1.png"></td><td>15,320</td></tr>
+					<tr><td>13.</td><td><a href="popups/stats-popup.html" class="iframe"><h3>Laurence Arabia</h3></a></td><td>11</td><td>Shanghai</td><td>Singapore Royal</td><td></td><td>15,301</td></tr>
+					<tr><td>14.</td><td><a href="popups/stats-popup.html" class="iframe"><h3>King Tucson</h3></a></td><td>12</td><td>South Hollywood, CA</td><td>Harvard-Westlake High School</td><td></td><td>15,112</td></tr>
+					<tr><td>15.</td><td><a href="popups/stats-popup.html" class="iframe"><h3>Geoffrey Lebowski</h3></a></td><td>12</td><td>Akmak, MN</td><td>Jameson High School</td><td></td><td>13,457</td></tr>
+					<tr><td>16.</td><td><a href="popups/stats-popup.html" class="iframe"><h3>Soren Hawfard</h3></a></td><td>10</td><td>Nine Elms, CT</td><td>Groton Preparatory</td><td></td><td>11,354</td></tr>
+				</tbody>
+			</table>
+			<div id="content-footer">
+				<a href="[PATH TO PREVIOUS PAGE IF EXTANT]" class="left button">Previous</a>
+				<ul>
+					<li><a href="[PAGE 1 PATH]">1</a> &#149; </li>
+					<li><a href="[PAGE 2 PATH]">2</a> &#149; </li>
+					<li>3 &#149; </li>
+					<li><a href="[PAGE 4 PATH]">4</a> &#149; </li>
+					<li><a href="[PAGE 5 PATH]">5</a></li>
+				</ul>
+				<a href="[PATH TO NEXT PAGE IF EXTANT]" class="right button">Next</a>
+			</div><!-- end div#content-footer -->
+		</div><!-- end div#content -->
+	</div><!-- end div#container -->
+	<div id="footer">
+		<ul id="footer-menu">
+			<li><a href="static-about.html">About Us</a> &#149; </li>
+			<li><a href="[PATH TO PAGE]">Contact</a> &#149; </li>
+			<li><a href="static-information.html">Edit Profile</a> &#149; </li>
+			<li><a href="popups/message-popup-footer.html" class="iframe">Send Message</a> &#149; </li>
+			<li><a href="[PATH TO PAGE]">Recommend Mentor</a> &#149; </li>
+			<li><a href="[PATH TO PAGE]">Mentor Application</a> &#149; </li>
+			<li><a href="[PATH TO PAGE]">Sponsors</a></li>
+		</ul>
+		<ul id="sponsor-list">
+			<li>Our Sponsors</li>
+			<li><a href="[PATH TO SPONSOR'S SITE]"><img src="images/logo-nike.gif" alt="Sponsor"></a></li>
+			<li><a href="[PATH TO SPONSOR'S SITE]"><img src="images/logo-coca-cola.gif" alt="Sponsor"></a></li>
+			<li><a href="[PATH TO SPONSOR'S SITE]"><img src="images/logo-gatorade.gif" alt="Sponsor"></a></li>
+			<li><a href="[PATH TO SPONSOR'S SITE]"><img src="images/logo-hp.gif" alt="Sponsor"></a></li>
+			<li><a href="[PATH TO SPONSOR'S SITE]"><img src="images/logo-nbc-sports.gif" alt="Sponsor"></a></li>
+			<li><a href="[PATH TO SPONSOR'S SITE]"><img src="images/logo-audi.gif" alt="Sponsor"></a></li>
+		</ul>
+	</div><!-- end div#footer -->
+</div><!-- end div#wrapper -->
+</body>
+</html>

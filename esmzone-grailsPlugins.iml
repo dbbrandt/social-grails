@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="GrailsWeb">
+      <configuration>
+        <webroots>
+          <root url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/searchable-0.5.5/web-app" relative="/" />
+          <root url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/grails-ui-1.2-SNAPSHOT/web-app" relative="/" />
+          <root url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/richui-0.7/web-app" relative="/" />
+          <root url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/jsecurity-0.4.1/web-app" relative="/" />
+          <root url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/fckeditor-0.9.4/web-app" relative="/" />
+          <root url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/nested-set-0.1/web-app" relative="/" />
+          <root url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/yui-2.7.0.1/web-app" relative="/" />
+          <root url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/bubbling-2.1.2/web-app" relative="/" />
+          <root url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/searchable-0.5.5/web-app" relative="/" />
+          <root url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/grails-ui-1.2-SNAPSHOT/web-app" relative="/" />
+          <root url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/richui-0.7/web-app" relative="/" />
+          <root url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/jsecurity-0.4.1/web-app" relative="/" />
+          <root url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/fckeditor-0.9.4/web-app" relative="/" />
+          <root url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/nested-set-0.1/web-app" relative="/" />
+          <root url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/yui-2.7.0.1/web-app" relative="/" />
+          <root url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/searchable-0.5.5/web-app" relative="/" />
+          <root url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/grails-ui-1.2-SNAPSHOT/web-app" relative="/" />
+          <root url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/richui-0.7/web-app" relative="/" />
+          <root url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/jsecurity-0.4.1/web-app" relative="/" />
+          <root url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/fckeditor-0.9.4/web-app" relative="/" />
+          <root url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/nested-set-0.1/web-app" relative="/" />
+          <root url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/yui-2.7.0.1/web-app" relative="/" />
+        </webroots>
+        <sourceRoots />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/bubbling-2.1.2">
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/bubbling-2.1.2/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/bubbling-2.1.2/grails-app/taglib" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/fckeditor-0.9.4">
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/fckeditor-0.9.4/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/fckeditor-0.9.4/grails-app/controllers" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/fckeditor-0.9.4/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/fckeditor-0.9.4/grails-app/taglib" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/grails-ui-1.2-SNAPSHOT">
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/grails-ui-1.2-SNAPSHOT/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/grails-ui-1.2-SNAPSHOT/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/grails-ui-1.2-SNAPSHOT/grails-app/taglib" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/jquery-1.4.1.1">
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/jquery-1.4.1.1/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/jquery-1.4.1.1/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/jquery-1.4.1.1/grails-app/taglib" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/jsecurity-0.4.1">
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/jsecurity-0.4.1/src/java" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/jsecurity-0.4.1/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/jsecurity-0.4.1/grails-app/controllers" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/jsecurity-0.4.1/grails-app/taglib" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/mail-0.9">
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/mail-0.9/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/mail-0.9/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/mail-0.9/grails-app/taglib" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/nested-set-0.1">
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/nested-set-0.1/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/nested-set-0.1/grails-app/domain" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/richui-0.7">
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/richui-0.7/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/richui-0.7/grails-app/controllers" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/richui-0.7/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/richui-0.7/grails-app/taglib" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/searchable-0.5.5">
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/searchable-0.5.5/src/java" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/searchable-0.5.5/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/searchable-0.5.5/grails-app/controllers" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/searchable-0.5.5/grails-app/services" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/tomcat-1.2.1">
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/tomcat-1.2.1/src/groovy" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/yui-2.7.0.1">
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/yui-2.7.0.1/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/yui-2.7.0.1/grails-app/taglib" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="1.6" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="grails-1.2.1" level="application" />
+    <orderEntry type="module-library" exported="">
+      <library name="Grails User Library">
+        <CLASSES>
+          <root url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/searchable-0.5.5/lib" />
+          <root url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/tomcat-1.2.1/lib" />
+          <root url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/grails-ui-1.2-SNAPSHOT/lib" />
+          <root url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/richui-0.7/lib" />
+          <root url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/jsecurity-0.4.1/lib" />
+          <root url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/mail-0.9/lib" />
+        </CLASSES>
+        <SOURCES />
+        <jarDirectory url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/grails-ui-1.2-SNAPSHOT/lib" recursive="false" />
+        <jarDirectory url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/jsecurity-0.4.1/lib" recursive="false" />
+        <jarDirectory url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/mail-0.9/lib" recursive="false" />
+        <jarDirectory url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/richui-0.7/lib" recursive="false" />
+        <jarDirectory url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/searchable-0.5.5/lib" recursive="false" />
+        <jarDirectory url="file://$USER_HOME_GRAILS$/1.2.1/projects/esmzone/plugins/tomcat-1.2.1/lib" recursive="false" />
+      </library>
+    </orderEntry>
+  </component>
+</module>
+

@@ -1,0 +1,134 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"
+"http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+<head>
+	<title>ESM ZONE - The Place for Student Athletes</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link href="css/style.css" type="text/css" rel="stylesheet">
+	<script type="text/javascript" src="js/sorttable.js"></script>
+	<script type="text/javascript" src="js/functions.js"></script>
+	<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="images/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+	<script type="text/javascript" src="images/fancybox/jquery.easing-1.3.pack.js"></script>
+	<link rel="stylesheet" href="images/fancybox/jquery.fancybox-1.3.1.css" type="text/css" media="screen">
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("a.iframe").fancybox({
+					'width'				: 450,
+					'height'			: 350,
+					'type'				: 'iframe',
+					'autoScale'     	: false,
+					'padding' : '0',
+					'titleShow' : false,
+					'scrolling'	:'no',
+			});
+		});
+	</script>
+</head>
+<body onload="menuSlider.init('menu','slide')">
+<div id="wrapper">
+	<div id="header"><div id="header-left-fold"></div>
+		<div id="user-info">
+			<span id="visitor-options"><a href="landing-about.html">About Us</a> | <a href="landing-join.html">Join</a> | <a href="[LOG IN]">Login</a></span>
+		</div><!-- end div#user-info -->
+		<div class="menu">
+			<ul id="menu">
+				<li><a href="landing-home.html">Home</a></li>
+				<li><a href="landing-search.html">Search</a></li>
+				<li>Ask a Question</li>
+				<li value="1"><a href="landing-people.html">People</a></li>
+				<li><a href="landing-standings.html">Standings</a></li>
+			</ul><!-- end ul#menu -->
+			<div id="slide"></div>
+		</div>
+		<a href="[PATH TO HOMEPAGE]"><img id="esm-logo" alt="ESM Zone" src="images/logo.png"></a>
+	<div id="header-right-fold"></div></div><!-- end div#header -->
+	<div id="container" class="landing standings">
+		<div id="left">
+			<div class="box">
+				<h1>Welcome to ESM Zone</h1>
+				<p>ESM Zone is this awesome new tool for athelete students to come together in this online platform to share their experiences in sports and acedemics.</p>
+				<a href="landing-join.html">Join us today</a>
+				<img id="sports-icons" src="images/sports-icons.png" alt="Cycling Football Skating Basketball Bowling" />
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget eleifend est. Sed sed scelerisque nibh. Mauris volutpat turpis a magna placerat non tempor arcu gravida.</p>
+				<p>Donec laoreet mi sed lorem lobortis suscipit. Proin eget justo odio, vehicula accumsan tortor. Nullam vulputate nulla enim, eu semper nisi. Maecenas eu odio turpis, bibendum tempus sem. Pellentesque id posuere nulla. Nullam malesuada urna non enim congue fringilla. Mauris placerat mattis ligula ut feugiat.</p>
+				<a href="#" class="right button">Register and Join ESM Zone</a>
+			</div><!-- end div.box -->
+			<div class="ad box">
+				<h1>Page sponsored by HP</h1>
+				<a href="#" class="ad-link"><img src="images/ad-large.jpg" alt="Printing Payback Guaranteed - by HP" class="ad" /></a>
+			</div><!-- end div.ad.box -->
+		</div><!-- end div#left -->
+		<div id="banner">
+			<a href="landing-join.html" class=" join-link right button">Join ESM Today</a>
+			<h1>Standings</h1>
+		</div>
+		<div id="content" class="wide">
+			<div id="content-header">
+				<ul class="menu">
+					<li><a href="">Nike Division I Standings</a></li>
+					<li><a href="">Ace Hardware Division II Standings</a></li>
+					<li><a class="current"  href="">ESPN Division III Standings</a></li>
+				</ul>
+			</div><!-- end div#content-header -->
+			<table class="sortable">
+				<colgroup class="first-column"></colgroup>
+				<colgroup class="second-column"></colgroup>
+				<colgroup class="third-column"></colgroup>
+				<thead>
+					<tr><th class="sorttable_nosort number"></th><th class="name">Name</th><th class="grade">Grade</th><th>Town/City</th><th class="school">School</th><th class="sorttable_nosort medals">Medals</th><th class="score">Score</th>
+				</thead>
+				<tbody>
+					<tr><td>1.</td><td><a href="popups/stats-popup.html" class="iframe"><h3>Raj Bhanadri</h3></a></td><td>10</td><td>Palo Alto, CA</td><td>Palo Alto High School</td><td><img alt="[MEDAL NAME]" src="images/medal5.png"><img alt="[MEDAL NAME]" src="images/medal4.png"><img alt="[MEDAL NAME]" src="images/medal3.png"><img alt="[MEDAL NAME]" src="images/medal1.png"><img alt="[MEDAL NAME]" src="images/medal3.png"></td><td>21,546</td></tr>
+					<tr><td>2.</td><td><a href="popups/stats-popup.html" class="iframe"><h3>Bill Hoomein</h3></a></td><td>11</td><td>Providence, RI</td><td>High School</td><td><img alt="[MEDAL NAME]" src="images/medal3.png"><img alt="[MEDAL NAME]" src="images/medal2.png"><img alt="[MEDAL NAME]" src="images/medal2.png"><img alt="[MEDAL NAME]" src="images/medal4.png"><img alt="[MEDAL NAME]" src="images/medal3.png"></td><td>20,532</td></tr>
+					<tr><td>3.</td><td><a href="popups/stats-popup.html" class="iframe"><h3>George Wallaby</h3></a></td><td>12</td><td>New York, NY</td><td>King George High School</td><td><img alt="[MEDAL NAME]" src="images/medal1.png"><img alt="[MEDAL NAME]" src="images/medal4.png"><img alt="[MEDAL NAME]" src="images/medal3.png"><img alt="[MEDAL NAME]" src="images/medal1.png"></td><td>19,453</td></tr>
+					<tr><td>4.</td><td><a href="popups/stats-popup.html" class="iframe"><h3>James Dean</h3></a></td><td>11</td><td>Liverpool, UK</td><td>American International</td><td><img alt="[MEDAL NAME]" src="images/medal1.png"><img alt="[MEDAL NAME]" src="images/medal2.png"><img alt="[MEDAL NAME]" src="images/medal3.png"></td><td>19,320</td></tr>
+					<tr><td>5.</td><td><a href="popups/stats-popup.html" class="iframe"><h3>David Beckham</h3></a></td><td>11</td><td>Hong Kong</td><td>Singapore Royal</td><td><img alt="[MEDAL NAME]" src="images/medal2.png"><img alt="[MEDAL NAME]" src="images/medal2.png"><img alt="[MEDAL NAME]" src="images/medal3.png"></td><td>19,301</td></tr>
+					<tr><td>6.</td><td><a href="popups/stats-popup.html" class="iframe"><h3>Tara Decker</h3></a></td><td>12</td><td>North Hollywood, CA</td><td>Harvard-Westlake High School</td><td><img alt="[MEDAL NAME]" src="images/medal5.png"><img alt="[MEDAL NAME]" src="images/medal4.png"><img alt="[MEDAL NAME]" src="images/medal3.png"></td><td>19,112</td></tr>
+					<tr><td>7.</td><td><a href="popups/stats-popup.html" class="iframe"><h3>Jamie Brown</h3></a></td><td>12</td><td>Duluth, MN</td><td>Jameson High School</td><td><img alt="[MEDAL NAME]" src="images/medal1.png"><img alt="[MEDAL NAME]" src="images/medal2.png"><img alt="[MEDAL NAME]" src="images/medal3.png"></td><td>18,457</td></tr>
+					<tr><td>8.</td><td><a href="popups/stats-popup.html" class="iframe"><h3>Lucas French</h3></a></td><td>10</td><td>Groton, CT</td><td>Groton Preparatory</td><td><img alt="[MEDAL NAME]" src="images/medal3.png"><img alt="[MEDAL NAME]" src="images/medal2.png"></td><td>17,354</td></tr>
+					<tr><td>9.</td><td><a href="popups/stats-popup.html" class="iframe"><h3>Jimbo Flahanadri</h3></a></td><td>10</td><td>Apple City, CA</td><td>Palo Alto High School</td><td><img alt="[MEDAL NAME]" src="images/medal1.png"><img alt="[MEDAL NAME]" src="images/medal4.png"><img alt="[MEDAL NAME]" src="images/medal3.png"></td><td>16,546</td></tr>
+					<tr><td>10.</td><td><a href="popups/stats-popup.html" class="iframe"><h3>Gill Goomein</h3></a></td><td>11</td><td>Galway, RI</td><td>High School</td><td><img alt="[MEDAL NAME]" src="images/medal5.png"><img alt="[MEDAL NAME]" src="images/medal2.png"></td><td>16,532</td></tr>
+					<tr><td>11.</td><td><a href="popups/stats-popup.html" class="iframe"><h3>Norman Wallaby</h3></a></td><td>12</td><td>Pickachouk, NY</td><td>King George High School</td><td><img alt="[MEDAL NAME]" src="images/medal3.png"></td><td>15,453</td></tr>
+					<tr><td>12.</td><td><a href="popups/stats-popup.html" class="iframe"><h3>John Jean</h3></a></td><td>11</td><td>Glasgow, UK</td><td>American International</td><td><img alt="[MEDAL NAME]" src="images/medal1.png"></td><td>15,320</td></tr>
+					<tr><td>13.</td><td><a href="popups/stats-popup.html" class="iframe"><h3>Laurence Arabia</h3></a></td><td>11</td><td>Shanghai</td><td>Singapore Royal</td><td></td><td>15,301</td></tr>
+					<tr><td>14.</td><td><a href="popups/stats-popup.html" class="iframe"><h3>King Tucson</h3></a></td><td>12</td><td>South Hollywood, CA</td><td>Harvard-Westlake High School</td><td></td><td>15,112</td></tr>
+					<tr><td>15.</td><td><a href="popups/stats-popup.html" class="iframe"><h3>Geoffrey Lebowski</h3></a></td><td>12</td><td>Akmak, MN</td><td>Jameson High School</td><td></td><td>13,457</td></tr>
+					<tr><td>16.</td><td><a href="popups/stats-popup.html" class="iframe"><h3>Soren Hawfard</h3></a></td><td>10</td><td>Nine Elms, CT</td><td>Groton Preparatory</td><td></td><td>11,354</td></tr>
+				</tbody>
+			</table>
+			<div id="content-footer">
+				<ul>
+					<li>1 &#149; </li>
+					<li><a href="[PAGE 2 PATH]">2</a> &#149; </li>
+					<li><a href="[PAGE 3 PATH]">3</a> &#149; </li>
+					<li><a href="[PAGE 4 PATH]">4</a> &#149; </li>
+					<li><a href="[PAGE 5 PATH]">5</a></li>
+				</ul>
+				<a href="[PATH TO NEXT PAGE IF EXTANT]" class="right button">Next</a>
+			</div><!-- end div#content-footer -->
+		</div><!-- end div#content -->
+	</div><!-- end div#container -->
+	<div id="footer">
+		<ul id="footer-menu">
+			<li><a href="static-about.html">About Us</a> &#149; </li>
+			<li><a href="[PATH TO PAGE]">Contact</a> &#149; </li>
+			<li><a href="static-information.html">Edit Profile</a> &#149; </li>
+			<li><a href="popups/message-popup-footer.html" class="iframe">Send message</a> &#149; </li>
+			<li><a href="[PATH TO PAGE]">Recommend Mentor</a> &#149; </li>
+			<li><a href="[PATH TO PAGE]">Mentor Application</a> &#149; </li>
+			<li><a href="[PATH TO PAGE]">Sponsors</a></li>
+		</ul>
+		<ul id="sponsor-list">
+			<li>Our Sponsors</li>
+			<li><a href="[PATH TO SPONSOR'S SITE]"><img src="images/logo-nike.gif" alt="Sponsor"></a></li>
+			<li><a href="[PATH TO SPONSOR'S SITE]"><img src="images/logo-coca-cola.gif" alt="Sponsor"></a></li>
+			<li><a href="[PATH TO SPONSOR'S SITE]"><img src="images/logo-gatorade.gif" alt="Sponsor"></a></li>
+			<li><a href="[PATH TO SPONSOR'S SITE]"><img src="images/logo-hp.gif" alt="Sponsor"></a></li>
+			<li><a href="[PATH TO SPONSOR'S SITE]"><img src="images/logo-nbc-sports.gif" alt="Sponsor"></a></li>
+			<li><a href="[PATH TO SPONSOR'S SITE]"><img src="images/logo-audi.gif" alt="Sponsor"></a></li>
+		</ul>
+	</div><!-- end div#footer -->
+</div><!-- end div#wrapper -->
+</body>
+</html>

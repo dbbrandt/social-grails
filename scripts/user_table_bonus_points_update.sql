@@ -1,0 +1,1 @@
+update user set accept_terms = true, login_count = 0, mentor_best_answer_count = 0, best_answer_count = 0

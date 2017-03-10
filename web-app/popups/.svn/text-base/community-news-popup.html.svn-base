@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"
+"http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+<head>
+<link href="../css/style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+<div id="popup">
+	<div id="menu">
+		<h1>Community News</h1>
+	</div><!-- end div#menu -->
+	<div id="content">
+		<table>
+			<tr><td>12:25 4/29/2010</td><td><a href="[PATH TO USERS PROFILE]" alt="Steve McManaman">Steve McManaman</a> I am excited for the upcoming Champion's League finals in Madrid</td></tr>
+			<tr><td>11:17 4/29/2010</td><td><a href="[PATH TO USERS PROFILE]" alt="David Beckham">David Beckham</a> Inter Milan definately deserves to be in the final after that amaxing performance away from home</td></tr>
+			<tr><td>11:09 4/29/2010</td><td><a href="[PATH TO USERS PROFILE]" alt="Jose Morurinho">Jose Morurinho</a> Inter into champions league final for the first time since 1971!  This is an amazing achievement</td></tr>
+			<tr><td>9:09 4/29/2010</td><td><a href="[PATH TO USERS PROFILE]" alt="Michael Owen">Michael Owen</a> Barca won 1-0 but it wosn't enough to overtun Inter's 3-1 avantage from the first leg.  Morurinho galloped onto the pitch at full time</td></tr>
+			<tr><td>8:59 4/29/2010</td><td><a href="[PATH TO USERS PROFILE]" alt="Jose Morurinho">Jose Morurinho</a> This is the greatest defeat of my life!</td></tr>
+			<tr><td>8:50 4/29/2010</td><td><a href="[PATH TO USERS PROFILE]" alt="Lee Bowyer">Lee Bowyer</a> Leo Messi is Messi.  An incredible talent, from another galazy, but like all the others he didn't play to his strengths.</td></tr>
+			<tr><td>7:45 4/29/2010</td><td><a href="[PATH TO USERS PROFILE]" alt="Bill Walsh">Bill Walsh</a> Can anyone tell me about the game tonight?</td></tr>
+		</table>
+	</div><!-- end div#content -->
+</div><!-- end div#popup -->
+</body>
+</html>

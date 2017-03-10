@@ -1,0 +1,181 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<head>
+
+<title>ESM ZONE - The Place For Student Athletes</title>
+
+<link href="style.css" type="text/css" rel="stylesheet" />
+
+</head>
+<body>
+<div id="wrapper">
+	<div id="header">
+		<div id="user-info">
+			<img id="user-avatar" alt="[USER NAME]" src="images/avatar-user.jpg" />
+			<h1>[USER NAME]</h1>
+			<span id="user-score">Score 19,257</span>
+			<img id="user-stars" alt="4.3 stars" src="images/stars.png" />
+		</div><!-- end div#user-info -->
+		<ul id="menu">
+			<li><a href="" alt="Home">Home</a></li>
+			<li><a href="" alt="Ask a Question">Ask a Question</a></li>
+			<li><a href="" alt="Find Answers">Find Answers</a></li>
+			<li><a href="" alt="People">People</a></li>
+			<li><a href="" alt="Standings">Standings</a></li>
+		</ul><!-- end ul#menu -->
+		<a href="[PATH TO HOMEPAGE]" alt="Home"><img id="esm-logo" alt="ESM Zone" src="images/logo.png" /></a>
+	</div><!-- end div#header -->
+	<div id="container" class="homepage"><!-- Dan, can you generate a class for the container based on which page is being loaded?  I can then use that to style exceptions. -->
+		<div id="left">
+			<div id="personal-stats">
+				<h3>Alerts</h3><!-- begin alerts section -->
+				<span class="counter">18</span><!-- alerts number goes -->
+				<ul>
+					<li>Jonathan Lane answered <a href="[ALERT PATH]" alt="View this alert">your question</a></li>
+					<li>Jane Kent answered the <a href="[ALERT PATH]" alt="View this alert">same question</a></li>
+					<li>Albertson Grant answered <a href="[ALERT PATH]" alt="View this alert">your question</a></li>
+					<li>Michael Ball has sent you <a href="[ALERT PATH]" alt="View this alert">a message</a></li>
+				</ul>
+				<a href="[PATH TO ALL ALERTS]" alt="See all alerts" class="see-more-link">See all alerts</a><!-- end alerts section -->
+				<h3>Medals</h3><!-- begin medals section -->
+				<ul>
+					<li><img alt="[MEDAL NAME]" src="images/medal1.png" /></li>
+					<li><img alt="[MEDAL NAME]" src="images/medal2.png" /></li>
+					<li><img alt="[MEDAL NAME]" src="images/medal3.png" /></li>
+					<li><img alt="[MEDAL NAME]" src="images/medal4.png" /></li>
+					<li><img alt="[MEDAL NAME]" src="images/medal5.png" /></li>
+				</ul><!-- end medals section -->
+				<h3>Stats</h3><!-- begin stats section -->
+				<table>
+					<tr><td>Total Ratings</td><td>4.3 <img alt="4.3 stars" src="images/stars.png" /></td></tr>
+					<tr><td>Questions Asked</td><td>12</td></tr>
+					<tr><td>Questions Answered</td><td>38</td></tr>
+					<tr><td>Total Points Earned</td><td>9,156</td></tr>
+					<tr><td>Score</td><td>23,885</td></tr>
+					<tr><td>Division II Rank</td><td>218</td></tr>
+				</table><!-- end stats section -->
+				<h3>My Fans &#149; Mentors</h3><!-- begin fans/mentors section -->
+				<span class="counter">328</span><!-- fans/mentor number goes -->
+					<a href="[PATH TO FRIEND'S PROFILE]" alt="[NAME]"><img alt="[NAME]" class="fans-mentors-gallery-image" src="images/avatar-small-1.jpg" /></a>
+					<a href="[PATH TO FRIEND'S PROFILE]" alt="[NAME]"><img alt="[NAME]" class="fans-mentors-gallery-image" src="images/avatar-small-1.jpg" /></a>
+					<a href="[PATH TO FRIEND'S PROFILE]" alt="[NAME]"><img alt="[NAME]" class="fans-mentors-gallery-image" src="images/avatar-small-1.jpg" /></a>
+					<a href="[PATH TO FRIEND'S PROFILE]" alt="[NAME]"><img alt="[NAME]" class="fans-mentors-gallery-image" src="images/avatar-small-1.jpg" /></a>
+					<a href="[PATH TO FRIEND'S PROFILE]" alt="[NAME]"><img alt="[NAME]" class="fans-mentors-gallery-image" src="images/avatar-small-1.jpg" /></a>
+					<a href="[PATH TO FRIEND'S PROFILE]" alt="[NAME]"><img alt="[NAME]" class="fans-mentors-gallery-image" src="images/avatar-small-1.jpg" /></a>
+					<a href="[PATH TO FRIEND'S PROFILE]" alt="[NAME]"><img alt="[NAME]" class="fans-mentors-gallery-image" src="images/avatar-small-1.jpg" /></a>
+					<a href="[PATH TO FRIEND'S PROFILE]" alt="[NAME]"><img alt="[NAME]" class="fans-mentors-gallery-image" src="images/avatar-small-1.jpg" /></a>
+					<a href="[PATH TO FRIEND'S PROFILE]" alt="[NAME]"><img alt="[NAME]" class="fans-mentors-gallery-image" src="images/avatar-small-1.jpg" /></a>
+					<a href="[PATH TO FRIEND'S PROFILE]" alt="[NAME]"><img alt="[NAME]" class="fans-mentors-gallery-image" src="images/avatar-small-1.jpg" /></a>
+				<a href="[PATH TO ALL FANS AND MENTORS]" alt="See all fans and mentors" class="see-more-link">See all fans and mentors</a><!-- end fans/mentors section -->
+			</div><!-- end div#personal-stats -->
+			<div id="personal-stats-tab">
+				<span>Personal Stats</span>
+				<span class="counter">18</span><!-- alerts number goes -->
+			</div><!-- end div#personal-stats-tab -->
+		</div><!-- end div#left -->
+		<div id="content">
+			<form method="post" action="[FORM ACTION]">
+				<input type="text" name="search-qna" value="Find Questions and Answers" size="65" />
+				<input type="image" src="[SEARCH BUTTON PATH]" alt="Submit Question" />    
+			</form>
+			<ul>
+				<li><a href="">Everyone</a></li>
+				<li><a href="">Me</a></li>
+				<li><a href="">My Fans</a></li>
+				<li><a href="">My Mentors</a></li>
+				<li><a href="">My Mentees</a></li>
+			</ul>
+			<div class="conversation">
+				<a href="[PATH TO PROFILE]" /><img alt="[NAME]" src="images/avatar-medium-1.jpg"></a>
+				<h2>How much uranium would it take to get to the moon?</h2>
+				<span class="author">Joan Livingston</span>
+				<!-- [Ajax rating selector goes] -->
+				<hr/>
+				<a href="[PATH TO PROFILE]" /><img alt="[NAME]" src="images/avatar-medium-2.jpg"></a>
+				<p>Well there are many schools of thought.  Democrats won the support of a senior Republican Wednesday for a sweeping overhaul of the market for derivatives, as both sides sought a broader deal...</p>
+				<span class="author">Tim Brown</span>
+				<!-- [Ajax rating selector goes] -->
+				<span class="tags">Tags<img alt="arrow" src="[ARROW SOURCE]" /> <a href="[TAG PATH]" alt="See more questions tagged 'Life'">Life</a> <a href="[TAG PATH]" alt="See more questions tagged 'Academics'">Academics</a> <a href="[TAG PATH]" alt="See more questions tagged 'Science'">Science</a> </span>
+				<span class="tags">Responses<img alt="arrow" src="[ARROW SOURCE]" /> <a href="[RESPONSES PATH]" alt="See all responses">14</a></span>
+				<a href="[ANSWER PATH]" alt="Answer this question"><img src="[ANSWER IMAGE PATH]" alt="Answer" /></a>
+			</div><!-- end div.conversation -->
+			<div class="conversation">
+				<a href="[PATH TO PROFILE]" /><img alt="[NAME]" src="images/avatar-medium-1.jpg"></a>
+				<h2>How much uranium would it take to get to the moon?</h2>
+				<span class="author">Joan Livingston</span>
+				<!-- [Ajax rating selector goes] -->
+				<hr/>
+				<a href="[PATH TO PROFILE]" /><img alt="[NAME]" src="images/avatar-medium-2.jpg"></a>
+				<p>Well there are many schools of thought.  Democrats won the support of a senior Republican Wednesday for a sweeping overhaul of the market for derivatives, as both sides sought a broader deal...</p>
+				<span class="author">Tim Brown</span>
+				<!-- [Ajax rating selector goes] -->
+				<span class="tags">Tags<img alt="arrow" src="[ARROW SOURCE]" /> <a href="[TAG PATH]" alt="See more questions tagged 'Life'">Life</a> <a href="[TAG PATH]" alt="See more questions tagged 'Academics'">Academics</a> <a href="[TAG PATH]" alt="See more questions tagged 'Science'">Science</a> </span>
+				<span class="tags">Responses<img alt="arrow" src="[ARROW SOURCE]" /> <a href="[RESPONSES PATH]" alt="See all responses">14</a></span>
+				<a href="[ANSWER PATH]" alt="Answer this question"><img src="[ANSWER IMAGE PATH]" alt="Answer" /></a>
+			</div><!-- end div.conversation -->
+			<div id="content-footer">
+				<ul>
+					<li><a href="[PAGE 1 PATH]" alt="Go to Page 1">1</a></li>
+					<li><a href="[PAGE 2 PATH]" alt="Go to Page 2">2</a></li>
+					<li><a href="[PAGE 3 PATH]" alt="Go to Page 3">3</a></li>
+					<li><a href="[PAGE 4 PATH]" alt="Go to Page 4">4</a></li>
+					<li><a href="[PAGE 5 PATH]" alt="Go to Page 5">5</a></li>
+				</ul>
+				<a href="[PATH TO NEXT PAGE]" alt="Go to next page"><img src="[NEXT PAGE IMAGE PATH]" alt="Next" /></a>
+			</div><!-- end div#content-footer -->
+		</div><!-- end div#content -->
+		<div id="right">
+			<h3>Community Shout-Out</h3>
+			<form method="post" action="[FORM ACTION]">
+				<input type="text" name="shout-out" value="Tell the community in 140 characters" size="20" />
+				<input type="image" src="[SHOUT-OUT BUTTON PATH]" alt="Submit Shout-Out" />    
+			</form>
+			<h3>Community News</h3><!-- begin community news section -->
+			<ul>
+				<li><a href="[PATH TO USER]" alt="Go to [USER]'s profile">Steve McManaman</a>I am excited for the upcoming Champions League final in Madrid</li>
+				<li><a href="[PATH TO USER]" alt="Go to [USER]'s profile">David Beckham</a>Inter Milan definately deserves to be in the final after that...</li>
+				<li><a href="[PATH TO USER]" alt="Go to [USER]'s profile">Lionel Messi</a> Barcelona didn't do enough to beat 10men Inter</li>
+				<li><a href="[PATH TO USER]" alt="Go to [USER]'s profile">Jose Morurinho</a> Inter into champions league for the first time since 1971!</li>
+			</ul><!-- end of community news section -->
+			<a href="[PATH TO MORE NEWS]" alt="See more community news" class="see-more-link">See more Community News</a><!-- end community news section -->
+			<h3>Ace Hardware Division # Standing</h3><!-- begin standings section -->
+			<ul id="standings">
+				<li>1.<a href="[PATH TO USER]" alt="Go to [USER]'s profile">David Beckham</a><span>78,501</span></li>
+				<li>2.<a href="[PATH TO USER]" alt="Go to [USER]'s profile">Jack Rosenberg</a><span>68,852</span></li>
+				<li>3.<a href="[PATH TO USER]" alt="Go to [USER]'s profile">Janet Carn</a><span>69,542</span></li>
+				<li>4.<a href="[PATH TO USER]" alt="Go to [USER]'s profile">Juliette Howard</a><span>55,234</span></li>
+				<li>5.<a href="[PATH TO USER]" alt="Go to [USER]'s profile">Lady Gaga</a><span>54,988</span></li>
+				<li>6.<a href="[PATH TO USER]" alt="Go to [USER]'s profile">Beck Janker</a><span>53,928</span></li>
+				<li>7.<a href="[PATH TO USER]" alt="Go to [USER]'s profile">John Owens</a><span>53,200</span></li>
+				<li>8.<a href="[PATH TO USER]" alt="Go to [USER]'s profile">Tara Decker</a><span>42,493</span></li>
+				<li>9.<a href="[PATH TO USER]" alt="Go to [USER]'s profile">Danny Brown</a><span>41,948</span></li>
+				<li>10.<a href="[PATH TO USER]" alt="Go to [USER]'s profile">Harry Kewell</a><span>41,058</span></li>
+				<li>218.<a href="[PATH TO YOUR PROFILE]" alt="Go to your profile">You</a><span>12,879</span></li>
+			</ul><!-- end ul#standings -->
+			<div id="standings-footer">
+				<img src="[ACE LOGO PATH]" alt="Ace Hardware" />
+				<span class="see-more-link">See complete standings</span>
+			</div><!-- end div#standings-footer --><!-- end standings section -->
+		</div><!-- end div#right -->
+	</div><!-- end div#container -->
+	<div id="footer">
+		<ul>
+			<li><a href="[PATH TO PAGE]" alt="Read About Us">About Us</a></li>
+			<li><a href="[PATH TO PAGE]" alt="Contact us">Contact</a></li>
+			<li><a href="[PATH TO PAGE]" alt="Edit Your Profile">Edit Profile</a></li>
+			<li><a href="[PATH TO PAGE]" alt="Send a Message">Send Message</a></li>
+			<li><a href="[PATH TO PAGE]" alt="Recommend a Mentor">Recommend Mentor</a></li>
+			<li><a href="[PATH TO PAGE]" alt="Fill Out a Mentor Application"></a></li>
+			<li><a href="[PATH TO PAGE]" alt="See Our Sponsors">Sponsors</a></li>
+		</ul>
+		<span>Our Sponsors</span>
+			<li><a href="[PATH TO SPONSOR'S SITE]" alt="Visit [SPONSOR]"><img src="[SPONSOR LOGO]" alt="Sponsor" /></a></li>
+			<li><a href="[PATH TO SPONSOR'S SITE]" alt="Visit [SPONSOR]"><img src="[SPONSOR LOGO]" alt="Sponsor" /></a></li>
+			<li><a href="[PATH TO SPONSOR'S SITE]" alt="Visit [SPONSOR]"><img src="[SPONSOR LOGO]" alt="Sponsor" /></a></li>
+			<li><a href="[PATH TO SPONSOR'S SITE]" alt="Visit [SPONSOR]"><img src="[SPONSOR LOGO]" alt="Sponsor" /></a></li>
+			<li><a href="[PATH TO SPONSOR'S SITE]" alt="Visit [SPONSOR]"><img src="[SPONSOR LOGO]" alt="Sponsor" /></a></li>
+			<li><a href="[PATH TO SPONSOR'S SITE]" alt="Visit [SPONSOR]"><img src="[SPONSOR LOGO]" alt="Sponsor" /></a></li>
+	</div><!-- end div#footer -->
+</div><!-- end div#wrapper -->
+</body>
+</html>

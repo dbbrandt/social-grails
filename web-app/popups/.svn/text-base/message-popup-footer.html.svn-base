@@ -1,0 +1,39 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"
+"http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+<head>
+<link href="../css/style.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript">
+function textCounter(field,cntfield,maxlimit) {
+if (field.value.length > maxlimit) // if too long...trim it!
+field.value = field.value.substring(0, maxlimit);
+// otherwise, update 'characters left' counter
+else
+cntfield.value = maxlimit - field.value.length;
+}
+</script>
+</head>
+<body>
+<div id="popup">
+	<div id="menu">
+		<h1>Personal Message</h1>
+	</div><!-- end div#menu -->
+	<div id="content">
+		<form id="messageform" name="messageform" method="post" action="[FORM ACTION]">
+				<label for="message">Send a Fan or Mentor a message</label>
+				<select name="recipient">
+					<option value="">Select a Fan or Mentor</option>
+					<option value="David Beckham">David Beckham</option>
+					<option value="Will Brougham">Will Brougham</option>
+					<option value="Salmon Chase">Salmon Chase</option>
+					<option value="Jose Morurinho">Jose Morurinho</option>
+				</select>
+				<span class="text-counter"><input name="messagecounter" id="messagecounter" readonly="readonly" value="500"></readonly> characters</span>
+				<textarea id="message" name="message" type="text" style="width:410px;height:120px;border:1px solid #000000;" maxlength="500" onKeyDown="textCounter(document.messageform.message,document.messageform.messagecounter,500)" onKeyUp="(document.messageform.message,document.messageform.messagecounter,500)"></textarea>
+				<span class="disclaimer">*Personal messages are not scored or rated</span>
+				<input type="submit" value="Send" id="submit"></input>
+		</form>
+	</div><!-- end div#content -->
+</div><!-- end div#popup -->
+</body>
+</html>

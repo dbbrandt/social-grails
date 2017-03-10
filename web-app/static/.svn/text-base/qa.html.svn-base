@@ -1,0 +1,395 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"
+"http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+<head>
+	<title>ESM ZONE - The Place for Student Athletes</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link href="css/style.css" type="text/css" rel="stylesheet">
+	<script type="text/javascript" src="js/functions.js"></script>
+	<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="images/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+	<script type="text/javascript" src="images/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="js/expand.js"></script>
+	<link rel="stylesheet" href="images/fancybox/jquery.fancybox-1.3.1.css" type="text/css" media="screen">
+	<script type="text/javascript">
+	<!--//--><![CDATA[//><!--
+		/*Fancybox*/
+		$(document).ready(function() {
+			$("a.iframe").fancybox({
+					'width'				: 450,
+					'height'			: 350,
+					'type'				: 'iframe',
+					'autoScale'     	: false,
+					'padding' : '0',
+					'titleShow' : false,
+					'scrolling'	:'no',
+			});
+		});
+		/*Sliding Divs*/
+		$(function() {
+			$("a.expand").toggler({method: "slideFadeToggle"});
+			$("#content").expandAll({trigger: "a.expand", ref: "div.conversation", showMethod: "slideDown", hideMethod: "slideUp", speed: 300, oneSwitch: false});
+		});
+	//--><!]]>
+	</script>
+	<!--<![endif]-->
+</head>
+<body onload="menuSlider.init('menu','slide')">
+<div id="wrapper">
+	<div id="header"><div id="header-left-fold"></div>
+		<div id="user-info">
+			<img id="user-avatar" alt="[USER NAME]" src="images/avatar-user.jpg">
+			<h1>Kara Lambert</h1>
+			<span id="user-functions"><a href="[EDIT]">edit</a> | <a href="[LOG OUT]">log out</a></span>
+			<span id="user-score">Score 19,257 <img id="user-stars" alt="4.3 stars" src="images/stars.png"></span>
+		</div><!-- end div#user-info -->
+		<div class="menu">
+			<ul id="menu">
+				<li><a href="homepage.html">Home</a></li>
+				<li value="1"><a href="find-answers.html">Search</a></li>
+				<li><a href="ask-question.html">Ask a Question</a></li>
+				<li><a href="people.html">People</a></li>
+				<li><a href="standings.html">Standings</a></li>
+			</ul><!-- end ul#menu -->
+			<div id="slide"></div>
+		</div>
+		<a href="[PATH TO HOMEPAGE]"><img id="esm-logo" alt="ESM Zone" src="images/logo.png"></a>
+	<div id="header-right-fold"></div></div><!-- end div#header -->
+	<div id="container" class="qa">
+		<div id="left">
+			<div class="box">
+				<div id="personal-stats-container">
+					<div id="personal-stats">
+						<div class="alerts section"><!-- begin alerts section -->
+							<h3>Alerts</h3>
+							<div class="counter"><div class="round-right"></div><div class="number">18</div><div class="round-left"></div></div><!-- alerts number goes here -->
+							<ul>
+								<li>Jonathan Lane answered <a href="[ALERT PATH]">your question</a></li>
+								<li>Jane Kent answered the <a href="[ALERT PATH]">same question</a></li>
+								<li>Albertson Grant answered <a href="[ALERT PATH]">your question</a></li>
+								<li>Michael Ball has sent you <a href="[ALERT PATH]">a message</a></li>
+							</ul>
+							<a href="popups/conversation-alerts-popup.html" class="see-more-link iframe">See all alerts</a>
+						</div><!-- end alerts section -->
+						<div class="medals section"><!-- begin medals section -->
+							<h3>Medals</h3>
+							<ul>
+								<li><img alt="[MEDAL NAME]" src="images/medal1.png"></li>
+								<li><img alt="[MEDAL NAME]" src="images/medal2.png"></li>
+								<li><img alt="[MEDAL NAME]" src="images/medal3.png"></li>
+								<li><img alt="[MEDAL NAME]" src="images/medal4.png"></li>
+								<li><img alt="[MEDAL NAME]" src="images/medal5.png"></li>
+							</ul>
+						</div><!-- end medals section -->
+						<div class="stats section"><!-- begin stats section -->
+							<h3>Stats</h3>
+							<table>
+								<colgroup class="left"></colgroup>
+								<colgroup></colgroup>
+								<tr><td>Total Ratings</td><td>4.3 <img alt="4.3 stars" class="stars" src="images/stars.png"></td></tr>
+								<tr><td>Questions Asked</td><td>12</td></tr>
+								<tr><td>Questions Answered</td><td>38</td></tr>
+								<tr><td>Total Points Earned</td><td>9,156</td></tr>
+								<tr><td>Score</td><td>23,885</td></tr>
+								<tr><td>Division II Rank</td><td>218</td></tr>
+							</table>
+						</div><!-- end stats section -->
+						<div class="fans-mentors section"><!-- begin fans/mentors section -->
+							<h3>My Fans &#149; Mentors</h3>
+							<div class="counter"><div class="round-right"></div><div class="number">328</div><div class="round-left"></div></div><!-- fans/mentor number goes here -->
+							<div id="avatar-gallery">
+								<a href="[PATH TO FRIEND'S PROFILE]"><img alt="[NAME]" src="images/avatar-medium-1.jpg"></a>
+								<a href="[PATH TO FRIEND'S PROFILE]"><img alt="[NAME]" src="images/avatar-medium-1.jpg"></a>
+								<a href="[PATH TO FRIEND'S PROFILE]"><img alt="[NAME]" src="images/avatar-medium-1.jpg"></a>
+								<a href="[PATH TO FRIEND'S PROFILE]"><img alt="[NAME]" src="images/avatar-medium-1.jpg"></a>
+								<a href="[PATH TO FRIEND'S PROFILE]"><img alt="[NAME]" src="images/avatar-medium-1.jpg"></a>
+								<a href="[PATH TO FRIEND'S PROFILE]"><img alt="[NAME]" src="images/avatar-medium-1.jpg"></a>
+								<a href="[PATH TO FRIEND'S PROFILE]"><img alt="[NAME]" src="images/avatar-medium-1.jpg"></a>
+								<a href="[PATH TO FRIEND'S PROFILE]"><img alt="[NAME]" src="images/avatar-medium-1.jpg"></a>
+								<a href="[PATH TO FRIEND'S PROFILE]"><img alt="[NAME]" src="images/avatar-medium-1.jpg"></a>
+								<a href="[PATH TO FRIEND'S PROFILE]"><img alt="[NAME]" src="images/avatar-medium-1.jpg"></a>
+							</div><!-- end div#avatar-gallery -->
+							<a href="popups/mentors-popup.html" class="see-more-link iframe">See all fans and mentors</a>
+						</div><!-- end fans/mentors section -->
+					</div><!-- end div#personal-stats -->
+					<div id="personal-stats-tab" onMouseover="personalStats('bumpopen');" onMouseout="personalStats('bumpclose');" onClick="personalStats('switch');">
+						<h3>Personal Stats</h3>
+						<div id="personal-stats-tab-counter" class="counter"><div class="round-right"></div><div class="number">328</div><div class="round-left"></div></div>
+						<img id="personal-stats-close-button" src="images/close-button.png" alt="Close your Personal Stats" />
+					</div><!-- end div#personal-stats-tab -->
+				</div><!-- end div#personal-stats-container -->
+				<div class="section">
+					<h3>Search</h3>
+					<form>
+						<input type="text" class="entry-field" value="Find Questions and Answers" />
+						<input type="image" src="images/magnify-button.gif" class="submit" alt="Search">
+					</form>
+					<h3>Related Questions</h3>
+					<ul>
+						<li><a href="[PATH TO QUESTION]">Why does the Earth's crust move?</a></li>
+						<li><a href="[PATH TO QUESTION]">How does an animal know when a natural disaster is coming?</a></li>
+						<li><a href="[PATH TO QUESTION]">At what temperature does lava solidify?</a></li>
+						<li><a href="[PATH TO QUESTION]">From what is the Earth made of?</a></li>
+						<li><a href="[PATH TO QUESTION]">How do we measure the movement of the Earth's crust in meters?</a></li>
+					</ul>
+				</div><!-- end div.section -->
+				<div class="section">
+					<h3>Tags</h3>
+					<ul>
+						<li><a href="[PATH TO QUESTION]">Life > General Knowledge > Solar System</a></li>
+						<li><a href="[PATH TO QUESTION]">Academics > Geography > Earth</a></li>
+						<li><a href="[PATH TO QUESTION]">Academics > Chemistry > Compounds > Periodic Table</a></li>
+						<li><a href="[PATH TO QUESTION]">Life > World Issues > Energy</a></li>
+					</ul>
+					<a href="popups/add-tags-popup.html" class="iframe">[+] add tags</a>
+				</div><!-- end div.section -->
+			</div><!-- end div.box -->
+			<div class="ad box">
+				<h1>Page sponsored by HP</h1>
+				<a href="#" class="ad-link"><img src="images/ad-medium.jpg" alt="Printing Payback Guaranteed - by HP" /></a>
+			</div><!-- end div.ad -->
+		</div><!-- end div#left -->
+		
+		<div id="content" class="wide">
+			<div id="content-header">
+				<span style="display:block;height:14px;padding:10px 0 10px 0;">
+					<span class="rating">Overall rating <img src="images/stars-black.png" alt="4.3 stars" /> (from 24 users)</span>
+					<span class="right">Asked on 2/9/2010&nbsp;&nbsp;|&nbsp;&nbsp;3 Responses&nbsp;&nbsp;|&nbsp;&nbsp;10 Comments</a>
+				</span>
+			</div><!-- end div#content-header -->
+			<div class="conversation">
+				<div class="question section">
+					<div class="like">
+						<a href="[LIKE THIS]">
+							<img src="images/like-0.gif" alt="Like this question?">
+							<span>Like this question?</span>
+						</a>
+					</div><!-- end div.like -->
+					<a href="[PATH TO PROFILE]"><img alt="[NAME]" src="images/avatar-medium-1.jpg" class="avatar"></a>
+					<h2>How much uranium would it take to get to the moon?</h2>
+					<span class="author">Joan Livingston</span>
+					<div class="section-footer">
+						<a href="[FLAG ANSWER]" class="flag"></a>
+						<span class="rating">Question rating <img src="images/stars-black.png" alt="4.3 stars" /> (1)</span>
+						<a class="comments-link expand">View 2 Comments</a>
+						<div class="comments collapse">
+							<h3>Comments (2)</h3>
+							<div class="comment section">
+								<a href="[FLAG ANSWER]" class="flag"></a>
+								<a href="[PATH TO PROFILE]"><img alt="[NAME]" src="images/avatar-medium-1.jpg" class="avatar"></a>
+								<p>The agreement seemed to signal an easing of the worst peacetime air travel disruption ever, a nearly weeklong halt in flights that stranded thousands, cost airlines hundreds of millions of dollars and raised fresh questions about Europe's ability to respond coherently to a crisis.</p>
+								<span class="author">David Beckham</span>
+							</div><!-- end div.comment -->
+							<div class="comment section">
+								<a href="[FLAG ANSWER]" class="flag"></a>
+								<a href="[PATH TO PROFILE]"><img alt="[NAME]" src="images/avatar-medium-1.jpg" class="avatar"></a>
+								<p>Hello, how are you doing?</p>
+								<span class="author">Julie Taylor</span>
+							</div><!-- end div.comment -->
+							<form id="commentform" name="commentform">
+								<textarea id="commenttext" name="commenttext" onfocus="this.select()" maxlength="500" onKeyDown="textCounter(document.commentform.commenttext,document.commentform.textcounter,500)" onKeyUp="(document.commentform.commenttext,document.commentform.textcounter,500)">Add Comment</textarea>
+								<div class="footer">
+									<span class="text-counter"><input name="textcounter" class="textcounter" readonly="readonly" value="500"></readonly> characters</span>
+									<input type="image" class="submit right button" value="Answer"/>
+								</div>
+							</form>
+						</div><!-- end div.comments -->
+					</div>
+				</div><!-- end div.question -->
+				<div class="answer section">
+					<div class="top-answer top">
+						<a href="[MAKE TOP ANSWER]">
+							<img src="images/top-answer-1.gif" alt="Top Answer">
+							<span>Top Answer</span>
+						</a>
+					</div><!-- end div.top-answer -->
+					<div class="like">
+						<a href="[LIKE THIS]">
+							<img src="images/like-0.gif" alt="Like this answer?">
+							<span>Like this answer?</span>
+						</a>
+					</div><!-- end div.like -->
+					<a href="[PATH TO PROFILE]"><img alt="[NAME]" src="images/avatar-medium-2.jpg" class="avatar"></a>
+					<p>Well there are many schools of thought.  Democrats won the support of a senior Republican Wednesday for a sweeping overhaul of the market for derivatives, as both sides sought a broader deal...</p>
+					<span class="author">Tim Brown</span>
+					<div class="section-footer">
+						<a href="[FLAG ANSWER]" class="flag"></a>
+						<span class="rating">Answer rating <img src="images/stars-black.png" alt="4.3 stars" /> (1)</span>
+						<a class="comments-link expand">View 1 Comment</a>
+						<div class="comments collapse">
+							<h3>Comments (1)</h3>
+							<div class="comment section">
+								<a href="[FLAG ANSWER]" class="flag"></a>
+								<a href="[PATH TO PROFILE]"><img alt="[NAME]" src="images/avatar-medium-1.jpg" class="avatar"></a>
+								<p>The agreement seemed to signal an easing of the worst peacetime air travel disruption ever, a nearly weeklong halt in flights that stranded thousands, cost airlines hundreds of millions of dollars and raised fresh questions about Europe's ability to respond coherently to a crisis.</p>
+								<span class="author">David Beckham</span>
+							</div><!-- end div.comment -->
+							<form id="commentform" name="commentform">
+								<textarea id="commenttext" name="commenttext" onfocus="this.select()" maxlength="500" onKeyDown="textCounter(document.commentform.commenttext,document.commentform.textcounter,500)" onKeyUp="(document.commentform.commenttext,document.commentform.textcounter,500)">Add Comment</textarea>
+								<div class="footer">
+									<span class="text-counter"><input name="textcounter" class="textcounter" readonly="readonly" value="500"></readonly> characters</span>
+									<input type="image" class="submit right button" value="Answer"/>
+								</div>
+							</form>
+						</div><!-- end div.comments -->
+					</div><!-- end div.section-footer -->
+				</div><!-- end div.answer -->
+				<div class="answer section">
+					<div class="top-answer">
+						<a href="[MAKE TOP ANSWER]">
+							<img src="images/top-answer-0.gif" alt="Select as Top Answer">
+							<span>Select as Top Answer</span>
+						</a>
+					</div><!-- end div.top-answer -->
+					<div class="like">
+						<a href="[LIKE THIS]">
+							<img src="images/like-0.gif" alt="Like this answer?">
+							<span>Like this answer?</span>
+						</a>
+					</div><!-- end div.like -->
+					<a href="[PATH TO PROFILE]"><img alt="[NAME]" src="images/avatar-medium-2.jpg" class="avatar"></a>
+					<p>The agreement seemed to signal an easing of the worst peacetime air travel disruption ever, a nearly weeklong halt in flights that stranded thousands, cost airlines hundreds of millions of dollars and raised fresh questions about Europe's ability to respond coherently to a crisis.</p>
+					<p>Under the agreement, aviation authorities would carve airspace above the continent into three zones - one closest to the volcano that would completely restrict air traffic, another zone that would set up partial restrictions on flights, and a third zone, free of ash, where flights could resume completely.</p>
+					<p>It was unclear precisely what portions of the continent's airspace would be reopened when the agreement takes effect at 8 a.m. Tuesday Paris time, but the European Union's transport commissioner, Siim Kallas, called the deal "good news for Europe's stranded passengers."</p>
+					<span class="author">David Beckham</span>
+					<div class="section-footer">
+						<a href="[FLAG ANSWER]" class="flag"></a>
+						<span class="rating">Answer rating <img src="images/stars-black.png" alt="4.3 stars" /> (1)</span>
+						<a class="comments-link expand">View 3 Comments</a>
+						<div class="comments collapse">
+							<h3>Comments (3)</h3>
+							<div class="comment section">
+								<a href="[FLAG ANSWER]" class="flag"></a>
+								<a href="[PATH TO PROFILE]"><img alt="[NAME]" src="images/avatar-medium-1.jpg" class="avatar"></a>
+								<p>The agreement seemed to signal an easing of the worst peacetime air travel disruption ever, a nearly weeklong halt in flights that stranded thousands, cost airlines hundreds of millions of dollars and raised fresh questions about Europe's ability to respond coherently to a crisis.</p>
+								<span class="author">David Beckham</span>
+							</div><!-- end div.comment -->
+							<div class="comment section">
+								<a href="[FLAG ANSWER]" class="flag"></a>
+								<a href="[PATH TO PROFILE]"><img alt="[NAME]" src="images/avatar-medium-1.jpg" class="avatar"></a>
+								<p>Hello, how are you doing?</p>
+								<span class="author">Julie Taylor</span>
+							</div><!-- end div.comment -->
+							<div class="comment section">
+								<a href="[FLAG ANSWER]" class="flag"></a>
+								<a href="[PATH TO PROFILE]"><img alt="[NAME]" src="images/avatar-medium-1.jpg" class="avatar"></a>
+								<p>The agreement seemed to signal an easing of the worst peacetime air travel disruption ever, a nearly weeklong halt in flights that stranded thousands, cost airlines hundreds of millions of dollars and raised fresh questions about Europe's ability to respond coherently to a crisis.</p>
+								<span class="author">David Beckham</span>
+							</div><!-- end div.comment -->
+							<form id="commentform" name="commentform">
+								<textarea id="commenttext" name="commenttext" onfocus="this.select()" maxlength="500" onKeyDown="textCounter(document.commentform.commenttext,document.commentform.textcounter,500)" onKeyUp="(document.commentform.commenttext,document.commentform.textcounter,500)">Add Comment</textarea>
+								<div class="footer">
+									<span class="text-counter"><input name="textcounter" class="textcounter" readonly="readonly" value="500"></readonly> characters</span>
+									<input type="image" class="submit right button" value="Answer"/>
+								</div>
+							</form>
+						</div><!-- end div.comments -->
+					</div><!-- end div.section-footer -->
+				</div><!-- end div.answer -->
+				<div class="answer section">
+					<div class="top-answer">
+						<a href="[MAKE TOP ANSWER]">
+							<img src="images/top-answer-0.gif" alt="Like this answer?">
+							<span>Select as Top Answer</span>
+						</a>
+					</div><!-- end div.top-answer -->
+					<div class="like">
+						<a href="[LIKE THIS]">
+							<img src="images/like-0.gif" alt="Like this answer?">
+							<span>Like this answer?</span>
+						</a>
+					</div><!-- end div.like -->
+					<a href="[PATH TO PROFILE]"><img alt="[NAME]" src="images/avatar-medium-2.jpg" class="avatar"></a>
+					<p>Even before European officials made their announcement, several countries said they would be easing or lifting flight bans as the volcanic eruptions weakened, spewing less ash. Britain said that flights over Scotland would resume at 7 a.m. local time Tuesday, and that restrictions over England and Wales could be eased later in the day. Officials in Iceland said the plume of ash was now hovering at less than two miles high, about one-third of its height over the weekend, and British authorities said the volcano was "not currently emitting ash to altitudes that will affect" Britain.</p>
+					<span class="author">Jane Hall</span>
+					<div class="section-footer">
+						<a href="[FLAG ANSWER]" class="flag"></a>
+						<span class="rating">Answer rating <img src="images/stars-black.png" alt="4.3 stars" /> (1)</span>
+						<a class="comments-link expand">View 3 Comments</a>
+						<div class="comments collapse">
+							<h3>Comments (3)</h3>
+							<div class="comment section">
+								<a href="[FLAG ANSWER]" class="flag"></a>
+								<a href="[PATH TO PROFILE]"><img alt="[NAME]" src="images/avatar-medium-1.jpg" class="avatar"></a>
+								<p>Hello, how are you doing?</p>
+								<span class="author">Julie Taylor</span>
+							</div><!-- end div.comment -->
+							<form id="commentform" name="commentform">
+								<textarea id="commenttext" name="commenttext" onfocus="this.select()" maxlength="500" onKeyDown="textCounter(document.commentform.commenttext,document.commentform.textcounter,500)" onKeyUp="(document.commentform.commenttext,document.commentform.textcounter,500)">Add Comment</textarea>
+								<div class="footer">
+									<span class="text-counter"><input name="textcounter" class="textcounter" readonly="readonly" value="500"></readonly> characters</span>
+									<input type="image" class="submit right button" value="Answer"/>
+								</div>
+							</form>
+						</div><!-- end div.comments -->
+					</div><!-- end div.section-footer -->
+				</div><!-- end div.answer -->
+				<div class="answer section">
+					<div class="top-answer">
+						<a href="[MAKE TOP ANSWER]">
+							<img src="images/top-answer-0.gif" alt="Like this answer?">
+							<span>Select as Top Answer</span>
+						</a>
+					</div><!-- end div.top-answer -->
+					<div class="like">
+						<a href="[LIKE THIS]">
+							<img src="images/like-0.gif" alt="Like this answer?">
+							<span>Like this answer?</span>
+						</a>
+					</div><!-- end div.like -->
+					<a href="[PATH TO PROFILE]"><img alt="[NAME]" src="images/avatar-medium-2.jpg" class="avatar"></a>
+					<p>Even before European officials made their announcement, several countries said they would be easing or lifting flight bans as the volcanic eruptions weakened, spewing less ash. Britain said that flights over Scotland would resume at 7 a.m. local time Tuesday, and that restrictions over England and Wales could be eased later in the day. Officials in Iceland said the plume of ash was now hovering at less than two miles high, about one-third of its height over the weekend, and British authorities said the volcano was "not currently emitting ash to altitudes that will affect" Britain.</p>
+					<span class="author">Janet Wu</span>
+					<div class="section-footer">
+						<span class="rating">Answer rating <img src="images/stars-black.png" alt="4.3 stars" /> (1)</span>
+						<a href="[FLAG ANSWER]" class="flag"></a>
+						<a class="comments-link expand">Add a Comment</a>
+						<div class="comments collapse">
+							<form id="commentform" name="commentform">
+								<textarea id="commenttext" name="commenttext" onfocus="this.select()" maxlength="500" onKeyDown="textCounter(document.commentform.commenttext,document.commentform.textcounter,500)" onKeyUp="(document.commentform.commenttext,document.commentform.textcounter,500)">Add Comment</textarea>
+								<div class="footer">
+									<span class="text-counter"><input name="textcounter" class="textcounter" readonly="readonly" value="500"></readonly> characters</span>
+									<input type="image" class="submit right button" value="Answer"/>
+								</div>
+							</form>
+						</div><!-- end div.comments -->
+					</div><!-- end div.section-footer -->
+				</div><!-- end div.answer -->
+				<div class="section">
+					<form id="answerform" name="answerform">
+					<label for="answer">Submit Answer</label>
+					<textarea name="answer" id="answer" maxlength="2000" onKeyDown="textCounter(document.messageform.message,document.messageform.textcounter,2000)" onKeyUp="(document.messageform.message,document.messageform.textcounter,2000)"></textarea>
+				</div><!-- end .footer -->
+			</div><!-- end div.conversation -->
+			<div id="content-footer">
+				<span class="rating">Overall rating <img src="images/stars.png" alt="4.3 stars" /></span>
+				<span class="text-counter"><input name="textcounter" class="textcounter" readonly="readonly" value="2000"></readonly> characters</span>
+				<input type="image" value="Answer" class="submit right button">
+			</div><!-- end div#content-footer -->
+			</form>
+		</div><!-- end div#content -->
+		</form>
+	</div><!-- end div#container -->
+	<div id="footer">
+		<ul id="footer-menu">
+			<li><a href="static-about.html">About Us</a> &#149; </li>
+			<li><a href="[PATH TO PAGE]">Contact</a> &#149; </li>
+			<li><a href="static-information.html">Edit Profile</a> &#149; </li>
+			<li><a href="popups/message-popup-footer.html" class="iframe">Send Message</a> &#149; </li>
+			<li><a href="[PATH TO PAGE]">Recommend Mentor</a> &#149; </li>
+			<li><a href="[PATH TO PAGE]">Mentor Application</a> &#149; </li>
+			<li><a href="[PATH TO PAGE]">Sponsors</a></li>
+		</ul>
+		<ul id="sponsor-list">
+			<li>Our Sponsors</li>
+			<li><a href="[PATH TO SPONSOR'S SITE]"><img src="images/logo-nike.gif" alt="Sponsor"></a></li>
+			<li><a href="[PATH TO SPONSOR'S SITE]"><img src="images/logo-coca-cola.gif" alt="Sponsor"></a></li>
+			<li><a href="[PATH TO SPONSOR'S SITE]"><img src="images/logo-gatorade.gif" alt="Sponsor"></a></li>
+			<li><a href="[PATH TO SPONSOR'S SITE]"><img src="images/logo-hp.gif" alt="Sponsor"></a></li>
+			<li><a href="[PATH TO SPONSOR'S SITE]"><img src="images/logo-nbc-sports.gif" alt="Sponsor"></a></li>
+			<li><a href="[PATH TO SPONSOR'S SITE]"><img src="images/logo-audi.gif" alt="Sponsor"></a></li>
+		</ul>
+	</div><!-- end div#footer -->
+</div><!-- end div#wrapper -->
+</body>
+</html>

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/esmzone/!svn/ver/599/gui_redesign_feb_2011/grails-app/views/user
+END
+people.gsp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/esmzone/!svn/ver/569/gui_redesign_feb_2011/grails-app/views/user/people.gsp
+END
+register.gsp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/esmzone/!svn/ver/591/gui_redesign_feb_2011/grails-app/views/user/register.gsp
+END
+standings.gsp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/esmzone/!svn/ver/603/gui_redesign_feb_2011/grails-app/views/user/standings.gsp
+END
+joinToday.gsp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/esmzone/!svn/ver/595/gui_redesign_feb_2011/grails-app/views/user/joinToday.gsp
+END
+search.gsp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/esmzone/!svn/ver/599/gui_redesign_feb_2011/grails-app/views/user/search.gsp
+END

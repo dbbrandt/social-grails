@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/esmzone/!svn/ver/591/gui_redesign_feb_2011/scripts
+END
+content_page_load.sql
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/esmzone/!svn/ver/586/gui_redesign_feb_2011/scripts/content_page_load.sql
+END
+role_update_non_player.sql
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/esmzone/!svn/ver/591/gui_redesign_feb_2011/scripts/role_update_non_player.sql
+END
+EC2 Volume Backup Procedures.odt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/esmzone/!svn/ver/604/gui_redesign_feb_2011/scripts/EC2%20Volume%20Backup%20Procedures.odt
+END
+user_alter_security_question.sql
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/esmzone/!svn/ver/591/gui_redesign_feb_2011/scripts/user_alter_security_question.sql
+END
+content_page_pending_update.sql
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/esmzone/!svn/ver/578/gui_redesign_feb_2011/scripts/content_page_pending_update.sql
+END
+EC2 Volume Backup Procedures.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/esmzone/!svn/ver/604/gui_redesign_feb_2011/scripts/EC2%20Volume%20Backup%20Procedures.xml
+END
+EC2 Volume Backup Procedures.doc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/esmzone/!svn/ver/604/gui_redesign_feb_2011/scripts/EC2%20Volume%20Backup%20Procedures.doc
+END

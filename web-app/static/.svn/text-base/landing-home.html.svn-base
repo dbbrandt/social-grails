@@ -1,0 +1,251 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"
+"http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+<head>
+	<title>ESM ZONE - The Place for Student Athletes</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link href="css/style.css" type="text/css" rel="stylesheet">
+	<script type="text/javascript" src="js/functions.js"></script>
+	<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="images/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+	<script type="text/javascript" src="images/fancybox/jquery.easing-1.3.pack.js"></script>
+	<link rel="stylesheet" href="images/fancybox/jquery.fancybox-1.3.1.css" type="text/css" media="screen">
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("a.iframe").fancybox({
+					'width'				: 450,
+					'height'			: 350,
+					'type'				: 'iframe',
+					'autoScale'     	: false,
+					'padding' : '0',
+					'titleShow' : false,
+					'scrolling'	:'no',
+			});
+		});
+	</script>
+</head>
+<body onload="menuSlider.init('menu','slide')">
+<div id="wrapper">
+	<div id="header"><div id="header-left-fold"></div>
+		<div id="user-info">
+			<span id="visitor-options"><a href="landing-about.html">About Us</a> | <a href="landing-join.html">Join</a> | <a href="[LOG IN]">Login</a></span>
+		</div><!-- end div#user-info -->
+		<div class="menu">
+			<ul id="menu">
+				<li value="1"><a href="landing-home.html">Home</a></li>
+				<li><a href="landing-search.html">Search</a></li>
+				<li>Ask a Question</li>
+				<li><a href="landing-people.html">People</a></li>
+				<li><a href="landing-standings.html">Standings</a></li>
+			</ul><!-- end ul#menu -->
+			<div id="slide"></div>
+		</div>
+		<a href="[PATH TO HOMEPAGE]"><img id="esm-logo" alt="ESM Zone" src="images/logo.png"></a>
+	<div id="header-right-fold"></div></div><!-- end div#header -->
+	<div id="container" class="landing">
+		<div id="left">
+			<div class="box">
+				<h1>Welcome to ESM Zone</h1>
+				<p>ESM Zone is this awesome new tool for athelete students to come together in this online platform to share their experiences in sports and acedemics.</p>
+				<a href="landing-join.html">Join us today</a>
+				<img id="sports-icons" src="images/sports-icons.png" alt="Cycling Football Skating Basketball Bowling" />
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget eleifend est. Sed sed scelerisque nibh. Mauris volutpat turpis a magna placerat non tempor arcu gravida.</p>
+				<p>Donec laoreet mi sed lorem lobortis suscipit. Proin eget justo odio, vehicula accumsan tortor. Nullam vulputate nulla enim, eu semper nisi. Maecenas eu odio turpis, bibendum tempus sem. Pellentesque id posuere nulla. Nullam malesuada urna non enim congue fringilla. Mauris placerat mattis ligula ut feugiat.</p>
+				<a href="#" class="right button">Register and Join ESM Zone</a>
+			</div><!-- end div.box -->
+			<div class="ad box">
+				<h1>Page sponsored by HP</h1>
+				<a href="#" class="ad-link"><img src="images/ad-large.jpg" alt="Printing Payback Guaranteed - by HP" class="ad" /></a>
+			</div><!-- end div.ad.box -->
+		</div><!-- end div#left -->
+		<div id="banner">
+			<div id="banner-splash">
+				<a href="landing-join.html" class=" join-link right button">Join ESM Today</a>
+				<form>
+					<h2>The Place for Student Athletes</h2>
+					<label for="username">Log on to ESM</label>
+					<input type="text" name="username" value="Username" />
+					<input type="text" name="password" value="Password" />
+					<input type="submit" class="submit button right" value="Go" />
+				</form>
+			</div>
+		</div>
+		<div id="content" class="narrow">
+			<div class="conversation">
+			<div class="question">
+				<div class="like">
+					<a href="[LIKE THIS]">
+						<img src="images/like-0.gif" alt="24 people like this question">
+						<span>24 people like this question</span>
+					</a>
+				</div><!-- end div.like -->
+				<a href="[PATH TO PROFILE]"><img alt="[NAME]" src="images/avatar-medium-1.jpg" class="avatar"></a>
+				<h2>How much uranium would it take to get to the moon?</h2>
+				<span class="author">Joan Livingston</span>
+			</div><!-- end div.question -->
+			<div class="answer">
+				<div class="like">
+					<a href="[LIKE THIS]">
+						<img src="images/like-0.gif" alt="24 people like this answer">
+						<span>24 people like this answer</span>
+					</a>
+				</div><!-- end div.like -->
+				<a href="[PATH TO PROFILE]"><img alt="[NAME]" src="images/avatar-medium-2.jpg" class="avatar"></a>
+				<p>Well there are many schools of thought.  Democrats won the support of a senior Republican Wednesday for a sweeping overhaul of the market for derivatives, as both sides sought a broader deal...</p>
+				<span class="author">Tim Brown</span>
+			</div><!-- end div.answer -->
+			<div class="footer">
+					<span class="tags">Tags<img alt="arrow" class="arrow" src="images/arrow-white.png"><a href="[TAG PATH]">Life</a> <a href="[TAG PATH]">Academics</a> <a href="[TAG PATH]">Science</a></span>
+					<img alt="4.3 stars" class="stars" src="images/stars.png">
+					<span class="responses">Responses<img alt="arrow" class="arrow" src="images/arrow-white.png"><a href="[RESPONSES PATH]">14</a></span>
+					<a href="[ANSWER PATH]" class="right button">Answer</a>
+			</div><!-- end .footer -->
+			</div><!-- end div.conversation -->
+			<div class="conversation">
+				<div class="question">
+					<div class="like">
+						<a href="[LIKE THIS]">
+							<img src="images/like-0.gif" alt="24 people like this question">
+							<span>24 people like this question</span>
+						</a>
+					</div><!-- end div.like -->
+					<a href="[PATH TO PROFILE]"><img alt="[NAME]" src="images/avatar-medium-1.jpg" class="avatar"></a>
+					<h2>How much uranium would it take to get to the moon?</h2>
+					<span class="author">Joan Livingston</span>
+				</div><!-- end div.question -->
+				<div class="footer">
+						<span class="tags">Tags<img alt="arrow" class="arrow" src="images/arrow-white.png"><a href="[TAG PATH]">Life</a> <a href="[TAG PATH]">Academics</a> <a href="[TAG PATH]">Science</a></span>
+						<img alt="4.3 stars" class="stars" src="images/stars.png">
+						<span class="responses">Responses<img alt="arrow" class="arrow" src="images/arrow-white.png"><a href="[RESPONSES PATH]">14</a></span>
+						<a href="[ANSWER PATH]" class="right button">Answer</a>
+				</div><!-- end .footer -->
+			</div><!-- end div.conversation -->
+			<div class="conversation">
+				<div class="question">
+					<div class="like">
+						<a href="[LIKE THIS]">
+							<img src="images/like-0.gif" alt="24 people like this question">
+							<span>24 people like this question</span>
+						</a>
+					</div><!-- end div.like -->
+					<a href="[PATH TO PROFILE]"><img alt="[NAME]" src="images/avatar-medium-1.jpg" class="avatar"></a>
+					<h2>How much uranium would it take to get to the moon?  I'm wondering because I have a lot of uranium and I need to do something with it.</h2>
+					<span class="author">Joan Livingston</span>
+				</div><!-- end div.question -->
+				<div class="answer">
+					<div class="like">
+						<a href="[LIKE THIS]">
+							<img src="images/like-0.gif" alt="24 people like this answer">
+							<span>24 people like this answer</span>
+						</a>
+					</div><!-- end div.like -->
+					<a href="[PATH TO PROFILE]"><img alt="[NAME]" src="images/avatar-medium-2.jpg" class="avatar"></a>
+					<p>Well there are many schools of thought.  Democrats won the support of a senior Republican Wednesday for a sweeping overhaul of the market for derivatives, as both sides sought a broader deal.  I really like salmon and I don't think that there will be a lot of disagreement over the issue...</p>
+					<span class="author">Tim Brown</span>
+				</div><!-- end div.answer -->
+				<div class="footer">
+						<span class="tags">Tags<img alt="arrow" class="arrow" src="images/arrow-white.png"><a href="[TAG PATH]">Life</a> <a href="[TAG PATH]">Academics</a> <a href="[TAG PATH]">Science</a></span>
+						<img alt="4.3 stars" class="stars" src="images/stars.png">
+						<span class="responses">Responses<img alt="arrow" class="arrow" src="images/arrow-white.png"><a href="[RESPONSES PATH]">14</a></span>
+						<a href="[ANSWER PATH]" class="right button">Answer</a>
+				</div><!-- end .footer -->
+			</div><!-- end div.conversation -->
+			<div class="conversation">
+				<div class="question">
+					<div class="like">
+						<a href="[LIKE THIS]">
+							<img src="images/like-0.gif" alt="24 people like this question">
+							<span>24 people like this question</span>
+						</a>
+					</div><!-- end div.like -->
+					<a href="[PATH TO PROFILE]"><img alt="[NAME]" src="images/avatar-medium-1.jpg" class="avatar"></a>
+					<h2>How much uranium would it take to get to the moon?</h2>
+					<span class="author">Joan Livingston</span>
+				</div><!-- end div.question -->
+				<div class="footer">
+						<span class="tags">Tags<img alt="arrow" class="arrow" src="images/arrow-white.png"><a href="[TAG PATH]">Life</a> <a href="[TAG PATH]">Academics</a> <a href="[TAG PATH]">Science</a></span>
+						<img alt="4.3 stars" class="stars" src="images/stars.png">
+						<span class="responses">Responses<img alt="arrow" class="arrow" src="images/arrow-white.png"><a href="[RESPONSES PATH]">14</a></span>
+						<a href="[ANSWER PATH]" class="right button">Answer</a>
+				</div><!-- end .footer -->
+			</div><!-- end div.conversation -->
+			<div id="content-footer">
+				<ul>
+					<li>1 &#149; </li>
+					<li><a href="[PAGE 2 PATH]">2</a> &#149; </li>
+					<li><a href="[PAGE 3 PATH]">3</a> &#149; </li>
+					<li><a href="[PAGE 4 PATH]">4</a> &#149; </li>
+					<li><a href="[PAGE 5 PATH]">5</a></li>
+				</ul>
+				<a href="[PATH TO NEXT PAGE IF EXTANT]" class="right button">Next</a>
+			</div><!-- end div#content-footer -->
+		</div><!-- end div#content -->
+		<div id="right">
+			<div class="box">
+				<div class="community-news section">
+					<h3>Community News</h3>
+					<ul>
+						<li><a href="[PATH TO USER]">Steve McManaman</a> I am excited for the upcoming Champions League final in Madrid</li>
+						<li><a href="[PATH TO USER]">David Beckham</a> Inter Milan definately deserves to be in the final after that...</li>
+						<li><a href="[PATH TO USER]">Lionel Messi</a> Barcelona didn't do enough to beat 10men Inter</li>
+						<li><a href="[PATH TO USER]">Jose Morurinho</a> Inter into champions league for the first time since 1971!</li>
+					</ul>
+					<a href="popups/community-news-popup.html" class="iframe">See more Community News</a>
+				</div><!-- end div.community-news -->
+				<div class="standings section">
+					<h3>Nike Division I Standing</h3>
+					<ul>
+						<li>1. <a href="[PATH TO USER]">David</a><span>78,501</span></li>
+						<li>2. <a href="[PATH TO USER]">Jack</a><span>68,852</span></li>
+						<li>3. <a href="[PATH TO USER]">Janet</a><span>69,542</span></li>
+						<li>4. <a href="[PATH TO USER]">Juliette</a><span>55,234</span></li>
+						<li>5. <a href="[PATH TO USER]">Roland</a><span>54,988</span></li>
+					</ul>
+				</div><!-- end div.standings -->
+				<div class="standings section">
+					<h3>Ace Hardware Division II Standing</h3>
+					<ul>
+						<li>1. <a href="[PATH TO USER]">Ada</a><span>78,501</span></li>
+						<li>2. <a href="[PATH TO USER]">Kevin</a><span>68,852</span></li>
+						<li>3. <a href="[PATH TO USER]">Tejasvi</a><span>69,542</span></li>
+						<li>4. <a href="[PATH TO USER]">Eleri</a><span>55,234</span></li>
+						<li>5. <a href="[PATH TO USER]">Anita</a><span>54,988</span></li>
+					</ul>
+				</div><!-- end div.standings -->
+				<div class="standings section">
+					<h3>Gatorade Division III Standing</h3>
+					<ul>
+						<li>1. <a href="[PATH TO USER]">Jules</a><span>78,501</span></li>
+						<li>2. <a href="[PATH TO USER]">Jonathan</a><span>68,852</span></li>
+						<li>3. <a href="[PATH TO USER]">Ignatius</a><span>69,542</span></li>
+						<li>4. <a href="[PATH TO USER]">Juan</a><span>55,234</span></li>
+						<li>5. <a href="[PATH TO USER]">Norman</a><span>54,988</span></li>
+					</ul>
+					<a href="standings.html" class="see-more-link iframe">See complete standings</a>
+				</div><!-- end div.standings -->
+			</div><!-- end div.box -->
+		</div><!-- end div#right -->
+	</div><!-- end div#container -->
+	<div id="footer">
+		<ul id="footer-menu">
+			<li><a href="static-about.html">About Us</a> &#149; </li>
+			<li><a href="[PATH TO PAGE]">Contact</a> &#149; </li>
+			<li><a href="static-information.html">Edit Profile</a> &#149; </li>
+			<li><a href="popups/message-popup-footer.html" class="iframe">Send message</a> &#149; </li>
+			<li><a href="[PATH TO PAGE]">Recommend Mentor</a> &#149; </li>
+			<li><a href="[PATH TO PAGE]">Mentor Application</a> &#149; </li>
+			<li><a href="[PATH TO PAGE]">Sponsors</a></li>
+		</ul>
+		<ul id="sponsor-list">
+			<li>Our Sponsors</li>
+			<li><a href="[PATH TO SPONSOR'S SITE]"><img src="images/logo-nike.gif" alt="Sponsor"></a></li>
+			<li><a href="[PATH TO SPONSOR'S SITE]"><img src="images/logo-coca-cola.gif" alt="Sponsor"></a></li>
+			<li><a href="[PATH TO SPONSOR'S SITE]"><img src="images/logo-gatorade.gif" alt="Sponsor"></a></li>
+			<li><a href="[PATH TO SPONSOR'S SITE]"><img src="images/logo-hp.gif" alt="Sponsor"></a></li>
+			<li><a href="[PATH TO SPONSOR'S SITE]"><img src="images/logo-nbc-sports.gif" alt="Sponsor"></a></li>
+			<li><a href="[PATH TO SPONSOR'S SITE]"><img src="images/logo-audi.gif" alt="Sponsor"></a></li>
+		</ul>
+	</div><!-- end div#footer -->
+</div><!-- end div#wrapper -->
+</body>
+</html>

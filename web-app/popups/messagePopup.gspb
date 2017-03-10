@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"
+"http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+<head>
+<link href="../css/style.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript">
+function textCounter(field,cntfield,maxlimit) {
+if (field.value.length > maxlimit) // if too long...trim it!
+field.value = field.value.substring(0, maxlimit);
+// otherwise, update 'characters left' counter
+else
+cntfield.value = maxlimit - field.value.length;
+}
+</script>
+</head>
+<body>
+<g:if test="[USER CAME FROM ALERTS POPUP]">
+<div id="popup" class="reply">
+</g:if>
+<g:else>
+<div id="popup">
+</g:else>
+	<div id="menu">
+		<h1>Personal Message</h1>
+		<g:if test="[USER CAME FROM ALERTS POPUP]">
+		<a href="popups/alerts-popup.html" alt="Back to the Alerts page" class="back-link">Back to Alerts</a>
+		<span class="counter">18</span><!-- alerts counter -->
+		</g:if>
+		<g:if test="[USER CAME FROM FANS/MENTORS POPUP]">
+		<a href="popups/mentors-popup.html" alt="Back to the Fans and Mentors page" class="back-link">Back to Fans and Mentors</a>
+		</g:if>
+	</div><!-- end div#menu -->
+	<div id="content">
+		<form id="messageform" name="messageform" method="post" action="[FORM ACTION]">
+		<g:if test="[USER CAME FROM ALERTS POPUP]">
+			<label for="message">Reply</label>
+			<span class="text-counter"><input id="messagecounter" name="messagecounter" readonly="readonly" value="500 characters"></input> characters</span>
+			<textarea id="message" name="message" type="text" style="width:410px;height:50px;border:1px solid #000000;" maxlength="500" onKeyDown="textCounter(document.messageform.message,document.messageform.messagecounter,500)" onKeyUp="(document.messageform.message,document.messageform.messagecounter,500)"></textarea>
+			<input type="submit" value="Reply" id="submit"></input>
+		</g:if>
+		<g:else>
+			<label for="message">Send a Fan or Mentor a message</label>
+			<span class="text-counter"><input id="messagecounter" name="messagecounter" readonly="readonly" value="500 characters"></input> characters</span>
+			<select name="recipient">
+				<g:if test="[USER CAME FROM SEND MESSAGE BUTTON IN FOOTER]">
+				<option value="">Select a Fan or Mentor</option><!-- The first option being a null option with instructions for user -->
+				</g:if>
+				<g:if test="[USER CAME FROM MESSAGE BUTTON IN FANS/MENTORS POPUP]">
+				<option value="David Beckham">David Beckham</option><!-- The first option being the fan/mentor whose message button the user clicked -->
+				</g:if>
+				<option value="Will Brougham">Will Brougham</option>
+				<option value="Salmon Chase">Salmon Chase</option>
+				<option value="Jose Morurinho">Jose Morurinho</option>
+			</select>
+			<textarea id="message" name="message" type="text" style="width:410px;height:120px;border:1px solid #000000;" maxlength="500" onKeyDown="textCounter(document.messageform.message,document.messageform.messagecounter,500)" onKeyUp="(document.messageform.message,document.messageform.messagecounter,500)"></textarea>
+			<span class="disclaimer">*Personal messages are not scored or rated</span>
+			<input type="submit" value="Send" id="submit"></input>
+		</g:else>
+		</form>
+		<g:if test="[USER CAME FROM ALERTS POPUP]">
+		<div id="conversation-thread">
+			<div class="conversation">
+				<span>5:09 4/20/2010: <a href="[PATH TO PROFILE]" alt="See David Beckham's profile">David Beckham</a></span>
+				<p>Hey buddy, long time no see. I just want to check in on you. I am wondering if you have seen the new episode of lost where the smoke thing was attacking everything in it's way. It was awesome.</p>
+				<p>And yesterday's game where Inter Milan lost to Barca but still went through to the finals was epic! I can't believe they servied after playing most of the game with 10 men!</p>
+			</div><!-- end div.conversation -->
+			<div class="conversation">
+				<span>4:59 4/20/2010: <a href="[PATH TO PROFILE]" alt="See your profile">You</a></span>
+				<p>Hey buddy, long time no see. I just want to check in on you. I am wondering if you have seen the new episode of lost where the smoke thing was attacking everything in it's way. It was awesome.</p>
+				<p>And yesterday's game where Inter Milan lost to Barca but still went through to the finals was epic! I can't believe they servied after playing most of the game with 10 men!</p>
+			</div><!-- end div.conversation -->
+		</div><!-- end div#conversation-thread -->
+		</g:if>
+	</div><!-- end div#content -->
+</div><!-- end div#popup -->
+</body>
+</html>
