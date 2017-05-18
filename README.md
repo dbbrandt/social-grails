@@ -69,16 +69,13 @@ To build and test locally in a development environment
 ### Noble Avatar
 
 The Noble Avatar applet is build using the Eclipse IDE in this project. 
-The source code is stored in Codesion.  
+The source code is in the directory *Noble Avatar V02*.  
 If the code needs to be changed follow the direction below to recompile, sign and copy to the ESMZone project.  
 Normally, the applet will not change and the latest copy (jar files) will be stored in the ESMZone code repository ready to be packaged and released along with ESMZone.jar.
 
-Repository Root:  https://esmzone.svn.cvsdude.com/avatar/trunk
-
-1.	Checkout the project from the repository root.
-2.	Build the applet
-3.	The built classes will be created in the bin directory under the avatar source code directory. 
-4.	Package the class in a jar file using the command:
+1.	Build the applet
+2.	The built classes will be created in the bin directory under the avatar source code directory. 
+3.	Package the class in a jar file using the command:
 
 ```
 a. Change directory to the bin directory under avatar
